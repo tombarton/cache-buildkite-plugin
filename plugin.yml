@@ -1,6 +1,6 @@
 name: Cache
 description: Persist cache in between build steps
-author: https://github.com/lox
+author: https://github.com/lox, https://github.com/tombarton
 requirements:
   - bash
   - rsync
