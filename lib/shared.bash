@@ -38,6 +38,8 @@ hash_files() {
   # different operating systems have various shasum commands
   if hash shasum1 2>/dev/null ; then
     shasum="shasum1"
+  elif hash sha1sum 2>/dev/null ; then
+    shasum="sha1sum"
   elif hash shasum 2>/dev/null ; then
     shasum="shasum"
   else
